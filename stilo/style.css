@@ -1,0 +1,130 @@
+*{
+    margin: 0px ; 
+    padding: 0px ; 
+}
+
+html,body {
+            min-height: 100vh ;
+            background-color: rgb(202, 202, 202) ;
+}
+
+
+ :root {
+            --primeira : Olamedi ; 
+            --segundo  : Monis ; 
+            --terceiro  : Belquis ; 
+ }
+/* Aqui começa os estilos que estão aplicadas no header do site */ 
+header {
+         background-color: black;
+         padding: 10px ;
+         text-align: center ;
+
+}
+
+header  > h1 {
+              color: white ; 
+              font-variant: small-caps;
+              font-size: 4em ;
+              padding-top : 6vh ;
+              font-family: var(--primeira);
+}
+
+header > p {
+             
+            padding-bottom : 9vh ;
+            font-size: 1.2em ;
+            color: white ;
+            font-family: var(--terceiro);
+}
+
+
+header > p > a {
+
+            text-decoration: none;
+            color: white ; 
+}
+
+header > p > a:hover {
+
+            text-decoration: underline  3px rgb(247, 247, 133) ;
+}
+
+
+/* Aqui começa os estilos que estão aplicadas nas sections depois do header do site */ 
+
+    /* Os estilos que são aplicadas as section com a class  declarada como normal */
+
+    .normal{
+            
+            background-color: white ;
+            padding: 6vh 0vh 6vh 4vh ;
+            
+    }
+
+    .normal > p {
+                    background-color: rgb(255, 255, 255);
+                   display: inline-block;
+                    line-height: 2.3em ;
+                    padding: 1em 1.1em 2em 1em ; 
+                    font-family: var(--segundo);
+                    font-size: 2em ;
+                    margin-right: 1.1em ;
+                    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.233);
+                  
+                }
+
+    /* Os etilos que são aplicadas as section com class declarada como imagem */ 
+    
+
+    .imagem {
+                background:  darkkhaki url(../imagens/background001.jpg) no-repeat fixed ; 
+                background-size: cover;
+                background-position: center right;        
+                padding: 6vh 0vh 6vh 4vh ;
+                box-shadow: inset 5px 5px 20px 7px rgba(0, 0, 0, 0.404);
+                text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.658);
+    }
+
+    #seg {
+
+                background: rgb(139, 139, 247) url(../imagens/background002.jpg) no-repeat fixed;
+                background-size: cover ;
+                background-position: center center ;
+    }
+    .imagem > p {
+
+                line-height: 2em ;
+                background-color: rgba(0, 0, 0, 0.322) ;
+                display: inline-block;
+                padding: 1em 1em 2em 1em ;
+                color: white ;
+                font-family: var(--segundo);
+                font-size: 2em ;
+                margin-right: 1.1em ;
+    }
+
+
+    /* Os estilos que estão aplicadas no footer da página e os seus elementos internos  */ 
+
+        footer {
+
+                background-color: black ;
+                color : white ; 
+                padding: 3vh 0vh 3vh  0vh ;
+                text-align: center ;
+                font-family: var(--terceiro);
+        }
+
+
+        footer > p >  a {
+                        text-decoration: none ;
+                        color:white ; 
+                        font-weight: bolder;
+                        font-family: var(--terceiro);
+        }
+
+        footer > p > a:hover {
+
+                        text-decoration: underline rgb(252, 252, 104) 3px ;
+        }
