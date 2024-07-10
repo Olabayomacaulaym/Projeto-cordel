@@ -70,7 +70,7 @@ header > p > a:hover {
                     font-family: var(--segundo);
                     font-size: 2em ;
                     margin-right: 1.1em ;
-                    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.103);
+                    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.274);
                   
                 }
 
@@ -83,7 +83,7 @@ header > p > a:hover {
                 background-position: center right;        
                 padding: 6vh 0vh 6vh 4vh ;
                 box-shadow: inset 5px 5px 20px 7px rgba(0, 0, 0, 0.404);
-                text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.445);
+                text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
     }
 
     #seg {
