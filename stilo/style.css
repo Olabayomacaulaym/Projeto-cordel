@@ -83,7 +83,7 @@ header > p > a:hover {
                 background-position: center right;        
                 padding: 6vh 0vh 6vh 4vh ;
                 box-shadow: inset 5px 5px 20px 7px rgba(0, 0, 0, 0.404);
-                text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.658);
+                text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.445);
     }
 
     #seg {
